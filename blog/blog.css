@@ -1,0 +1,87 @@
+#right-content{
+    width: 720px;
+    height: auto;
+    float: left;
+}
+#blg-title{
+    width: 720px;
+    height: 200px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+
+}
+#blg-title img{
+    position: absolute;
+    width: 720px;
+    height: auto;
+    top:-100px;
+    left: 0px;
+    -webkit-filter: blur(5px);
+    opacity: 0.6;
+    z-index: 0;
+}
+#blg-title h1{
+    font-family: fantasy;
+    font-weight: 900;
+    display: block;
+    position: absolute;
+    width: 720px;
+    text-align: center;
+    top: 50px;
+    left: auto;
+    line-height: 80px;
+    font-size: 44px;
+    color: white;
+    z-index: 1;
+    /*font-size: 44px;*/
+}
+#blg-title span{
+
+    font-family: fantasy;
+    font-weight: 900;
+    display: block;
+    position: absolute;
+    width: 720px;
+    text-align: center;
+    top: 120px;
+    left: auto;
+    line-height: 40px;
+    font-size: 16px;
+    color: white;
+    z-index: 1;
+    /*font-size: 44px;*/
+}
+
+#blg-description{
+    width: 720px;
+    height: auto;
+    float: left;
+    margin:40px auto ;
+    font-family: fantasy;
+}
+#blg-description:first-letter{
+    text-indent: 40px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+figure{
+    display: block;
+    margin: 1em auto;
+    width: 50%;
+    padding: 0.5em;
+    border: thin silver solid;
+}
+figure img{
+    width: 100%;
+   max-height: 300px;
+    overflow: hidden;
+}
+figcaption{
+    text-align: center;
+}
+#blg-author{
+    float: right;
+    margin-top: 40px;
+
+}
