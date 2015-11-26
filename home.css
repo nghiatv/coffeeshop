@@ -1,14 +1,52 @@
+body{
+    font-family: FontAwesome    ;
+}
+
+
+.dropdown-menu li a{
+    margin-left: 20px;
+}
+.carousel-inner >.item >img{
+    width: 100%;
+}
+#banner{
+    margin-top: 50px;
+    /*height: 50%;*/
+}
+#banner img{
+    padding: 0;
+    height: 230px;
+}
+#bot-banner{
+    margin: 50px auto;
+}
+.promo-box{
+    height: 50px;
+    /*border-top: solid thin silver;*/
+    border-bottom: solid thin silver;
+    text-align: center;
+    line-height: 50px;
+    font-family: FontAwesome;
+}
+.promo-box:first-child{
+    border-top: solid thin silver;
+    padding: ;
+}
+
+
+#left-content,#right-content{
+    float: right;
+}
 @media (min-width: 768px) {
-    .collapse{
-        display: block !important;
-    }
+
+
     .container{
         width: 100%;
         padding: 0;
     }
-    #menu-logo{
-        width: 22%;
-        margin: 0 auto;
+
+    #menu-logo a img{
+        width: 200px;
     }
     nav>.container-fluid{
         padding: 0;
@@ -17,7 +55,7 @@
         padding: 0;
     }
     ul.nav.navbar-nav > li{
-        width: 13.00%;
+        /*width: 13.00%;*/
     }
 
     ul.nav > li > a{
@@ -73,6 +111,9 @@
         height: 100%;
     }
 }
+
+
+/*@grid-float-breakpoint: 991px;*/
 
 @media (max-width: 991px) and (min-width: 768px) {
     .navbar-header {
